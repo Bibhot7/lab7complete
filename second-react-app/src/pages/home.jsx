@@ -1,9 +1,7 @@
-import { useUserContext } from "../store/UserContext";
-import Counter from "../components/CounterComponent";
-import { useCounterContext } from "../store/CounterContext";
+
+
 export default function Homepage() {
-  const { currentUser, handleUpdateUser } = useUserContext();
-  const {counter} = useCounterContext();
+
   let email = '';
   const handleSubmit = (e) => {
     e.preventDefault(); // prevent page reloading on form submit
@@ -16,10 +14,8 @@ export default function Homepage() {
     <>
       <div className="Homepage">
         <h1>Home</h1>
-        <Counter></Counter>
+  
         
-        {currentUser.email}
-        <div>Counter:{counter}</div>
         <div className="LoginForm componentBox">
           <form onSubmit={handleSubmit}>
             <div className="formRow">

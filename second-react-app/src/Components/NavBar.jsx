@@ -10,7 +10,7 @@ return (
 
 <ul className="menu">
 <li><NavLink to="/">Home</NavLink></li>
-<li><NavLink to="/login">login</NavLink></li>
+<li><NavLink to="/emoji">Emoji</NavLink></li>
 <li><NavLink to="/BitcoinRates">BitcoinRates</NavLink></li>
 </ul> {/* ++ Add another page with route and component */}
 </nav>

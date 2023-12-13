@@ -1,5 +1,5 @@
 import React from "react";
-import { useEmojiContext } from "./EmojiContext";
+import { useEmojiContext } from "../Store/EmojiContext";
 
 function Emoji() {
   const { emoji, mood, changeMood } = useEmojiContext();
