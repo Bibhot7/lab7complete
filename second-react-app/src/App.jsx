@@ -7,6 +7,7 @@ import { EmojiProvider } from './Store/EmojiContext';
 import Emoji from './Components/Emoji';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/home';
+import BitcoinRatesWithHook from './Components/BitcoinRates'
 
 function App() {
   const [count, setCount] = useState(0);
